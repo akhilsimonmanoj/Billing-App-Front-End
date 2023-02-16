@@ -1,0 +1,40 @@
+.product-grid{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.center-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.product-grid .card-grid{
+    display: grid;
+    margin-top: 5rem;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-gap: 1em;
+    text-align: center;
+}
+
+.product-grid .textfield{
+    width : 300px;
+    margin-bottom: 5px;
+}
+
+.product-grid .add-button,.close-btn{
+    width : 300px;
+}
+
+.product-grid .card-size {
+    width: 250px;
+    height: 230px;
+  }
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    grid-gap: 10px;
+}
